@@ -6,8 +6,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="hidden-xs navbar-brand" href="/">Hosted PBX Portal</a>
-          <a class="visible-xs navbar-brand" href="/">Hosted PBX</a>
+          <a class="hidden-xs navbar-brand" href="/">Cloud PBX Portal</a>
+          <a class="visible-xs navbar-brand" href="/">Cloud PBX</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
