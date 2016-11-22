@@ -1,6 +1,3 @@
 [
- {home,      [],        controller_template,    [{template, "index.tpl"}]},
- {signup,["signup"],         controller_template,  [ {template, "sign_up.tpl"} ]},
- {signin,["signin"],         controller_template,  [ {template, "sign_in.tpl"} ]},
- {password_recovery,["password_recovery"],         controller_template,  [ {template, "password_recovery.tpl"} ]}
+ {home,      [],        controller_template,    [{template, "index.tpl"}]}
 ].
