@@ -2,7 +2,7 @@
     {% with m.config.i18n.language_list.list as list %}
     {% if list %}
     <a class="dropdown-toggle" data-toggle="dropdown" href="#languages">
-        {{ z_language|upper }}
+        {{ z_language }}
         <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
