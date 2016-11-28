@@ -48,9 +48,9 @@
 
 #right .login-block {
     position: relative;
-    min-height: 100%;
+ //   min-height: 100%;
     box-sizing: border-box;
-    top: 50%;
+    top: 45%;
     margin-top: -150px;
     padding: 30px;
 }
