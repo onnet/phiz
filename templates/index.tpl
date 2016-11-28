@@ -40,10 +40,18 @@
   </head>
   <body id="page">
     {% if m.kazoo.is_auth %}
-      {% if m.session.kazoo_reseller_account_id %}
-        {% wire action={redirect location="/reseller_portal"} %}
+      {% if m.modules.info.mod_onbill.enabled %}
+        {% wire action={redirect location="/dashboard"} %}
       {% else %}
-        {% wire action={redirect location="/user_portal"} %}
+        {% if m.session.kazoo_reseller_account_id %}
+          {% wire action={redirect location="/reseller_portal"} %}
+        {% else %}
+          {% if m.kazoo.is_kazoo_account_admin %}
+            {% wire action={redirect location="/admin_settings"} %}
+          {% else %}
+            {% wire action={redirect location="/user_portal"} %}
+          {% endif %}
+        {% endif %}
       {% endif %}
     {% else %}
       {% include "right.tpl" %}
