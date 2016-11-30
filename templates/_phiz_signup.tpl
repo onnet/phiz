@@ -37,7 +37,11 @@
         {% button class="btn-right" text=_"Count Me In" action={submit target="sign_up_form"} %}
       </div>
       <div id="google_recaptcha" class="row-login" style="margin-top: 2.2em;">
-        <div class="g-recaptcha" data-sitekey="{{ m.config.mod_kazoo.g_capture_site_key.value }}" style="transform:scale(0.88);transform-origin:0 0"></div>
+        <div class="g-recaptcha"
+             data-sitekey="{{ m.config.mod_kazoo.g_capture_site_key.value }}"
+             data-theme="dark"
+             style="transform:scale(0.88);transform-origin:0 0">
+        </div>
         <script src='https://www.google.com/recaptcha/api.js'></script>
       </div>
     </form>
