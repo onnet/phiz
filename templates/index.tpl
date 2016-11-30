@@ -9,8 +9,8 @@
     {% lib "js/jquery-migrate-1.0.0.js" %}
     {% lib "js/jquery-ui.min.js" %}
     {% lib "js/jquery.ui.touch-punch.min.js" %}
-    {% lib "css/bootstrap.min.css" %}
-    {% lib "js/bootstrap.min.js" %}
+    {% lib "bootstrap/css/bootstrap.min.css" %}
+    {% lib "bootstrap/js/bootstrap.min.js" %}
     {% lib "js/bootstrap-select.min.js" %}
     {% lib
           "css/z.modal.css"
