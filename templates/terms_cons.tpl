@@ -1,11 +1,11 @@
 
-<strong>Cancellation and refund</strong>
+<p><strong>Cancellation and refund</strong><p>
 
 <p>Except when stated otherwise cancellation of the Service / an agreement between the parties is possible but generally requires one month’s prior notice.</p>
 
-<p>If you want to cancel this Agreement in full, or if you want to cancel some but not all of your phone lines and other features of the Service, for any reason you must inform us in writing or via email at info@onnet.info. Your written notice of cancellation must be received no later than 1 working day before the end of the current calendar month, otherwise cancellation will not become effective until the end of the following calendar month. OnNet Innovations will send you confirmation of your cancellation by email. A working day does not include Saturdays, Sundays or any public or bank holidays in the United Kingdom.</p>
+<p>If you want to cancel this Agreement in full, or if you want to cancel some but not all of your phone lines and other features of the Service, for any reason you must inform us in writing or via email at info@onnet.info. Your written notice of cancellation must be received no later than 1 working day before the end of the current calendar month, otherwise cancellation will not become effective until the end of the following calendar month. {{ m.config.mod_kazoo.sender_name.value }} will send you confirmation of your cancellation by email. A working day does not include Saturdays, Sundays or any public or bank holidays in the United Kingdom.</p>
 
-<p>If the customer still has credit in his / her account at the point of cancellation, OnNet Innovations will reimburse the customer on request, to the value of the credit balance, minus OnNet Innovations' processing fees of 20.00GBP. A refund is not issued in the case of the balance not exceeding 20.00GBP.</p>
+<p>If the customer still has credit in his / her account at the point of cancellation, {{ m.config.mod_kazoo.sender_name.value }} will reimburse the customer on request, to the value of the credit balance, minus {{ m.config.mod_kazoo.sender_name.value }}' processing fees of $20.00. A refund is not issued in the case of the balance not exceeding $20.00.</p>
 
 <p>A prerequisite of a reimbursement is a written customer request, stating the customer number / SIP-ID, a bank or credit card account and a copy of proof of ID (passport/driving licence). The refund of a positive balance becomes time-barred from three years after the date of termination.</p>
 
@@ -31,7 +31,7 @@
 
 </ul>
 
-<p>OnNet Innovations may, in its sole discretion, immediately terminate your access to the Service respectively the Service should your conduct fail to conform to any provision of this Section.</p>
+<p>{{ m.config.mod_kazoo.sender_name.value }} may, in its sole discretion, immediately terminate your access to the Service respectively the Service should your conduct fail to conform to any provision of this Section.</p>
     
 <br />
 
