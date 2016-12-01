@@ -1,7 +1,7 @@
 {% if not m.kazoo.is_auth %}
-  <div class="login-block">
+  <div id="password_change_span_id" class="login-block">
     {% wire id="password_recovery_form" type="submit" postback={forgottenpwd} delegate="mod_kazoo" %}
-    <form id="sign_in_form" class="form-horizontal" name="sign_in_form" method="post" action="postback">
+    <form id="password_recovery_form" class="form-horizontal" name="password_recovery_form" method="post" action="postback">
       <div class="login-input row-login">
         <input type="text" id="forgotten_username" name="forgotten_username" value="" placeholder="{_ Email or Username _}" />
         <i class="fa fa-envelope"></i>

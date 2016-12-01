@@ -20,11 +20,11 @@
       </div>
       <div class="login-input row-login">
         <input type="text" name="companyname" id="companyname" placeholder="{_ Company name (optional) _}" />
-        <i class="fa fa-lock"></i>
+        <i class="fa fa-bookmark"></i>
       </div>
       <div class="login-input row-login">
         <input type="text" id="phonenumber" name="phonenumber" value="" placeholder="{_ Phone number _}" />
-        <i class="fa fa-bookmark"></i>
+        <i class="fa fa-phone"></i>
       </div>
       <div class="forgot" style="display: none1;">
         {% wire id="index_login" action={update target="right" template="_phiz_login_form.tpl"} %}

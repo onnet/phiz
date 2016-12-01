@@ -1,3 +1,4 @@
 [
- {home, [], controller_template, [{template, "index.tpl"}]}
+ {home, [], controller_template, [{template, "index.tpl"}]},
+ {password_reset_form, ["password_reset_form"], controller_template, [{template, "index.tpl"}]}
 ].
