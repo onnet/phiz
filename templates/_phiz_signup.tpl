@@ -32,8 +32,12 @@
         {% wire id="index_pwd_recovery" action={update target="right" template="_phiz_password_form.tpl"} %}
         <span id="index_pwd_recovery" style="color: grey; cursor: pointer;">{_ Password recovery _}</span>
       </div>
-      <div class="row-login" style="margin-top: 3em;">
-        {% button class="btn-right" text=_"Count Me In" action={submit target="sign_up_form"} %}
+      <div class="row-login" style="margin-top: 2em;">
+        {% if m.config.mod_kazoo.signup_enabled.value == "true" %}
+          {% button class="btn-right" text=_"Count Me In" action={submit target="sign_up_form"} %}
+        {% else %}
+          {% button class="btn-right" text=_"Currently disabled" action={growl text=_"Sorry, sign up disabled."} %}
+        {% endif %}
       </div>
       <div class="checkbox">
         <label>
