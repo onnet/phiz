@@ -18,11 +18,11 @@
         <i class="fa fa-envelope"></i>
       </div>
       <div class="login-input row-login">
-        <input type="text" id="email" name="email" value="" placeholder="{_ Confirm email address _}" />
+        <input type="text" id="email" name="email" value="" placeholder="{_ Confirm email _}" />
         <i class="fa fa-envelope"></i>
       </div>
       <div class="login-input row-login">
-        <input type="text" name="companyname" id="companyname" placeholder="{_ Company name (optional) _}" />
+        <input type="text" name="companyname" id="companyname" placeholder="{_ Company name _}" />
         <i class="fa fa-bookmark"></i>
       </div>
       <div class="login-input row-login">
@@ -33,7 +33,7 @@
         {% wire id="index_login" action={update target="right" template="_phiz_login_form.tpl"} %}
         <span id="index_login" style="float: left; color: grey; margin-left: 1.5em; cursor: pointer;">{_ Sign In _}</span>
         {% wire id="index_pwd_recovery" action={update target="right" template="_phiz_password_form.tpl"} %}
-        <span id="index_pwd_recovery" style="color: grey; cursor: pointer;">{_ Password recovery _}</span>
+        <span id="index_pwd_recovery" style="color: grey; cursor: pointer;">{_ Password _}</span>
       </div>
       <div class="row-login" style="margin-top: 2em;">
         {% if m.config.mod_kazoo.signup_enabled.value == "true" %}
@@ -53,7 +53,8 @@
         <div class="g-recaptcha"
              data-sitekey="{{ m.config.mod_kazoo.g_capture_site_key.value }}"
              data-theme="dark"
-             style="transform:scale(0.88);transform-origin:0 0">
+             data-size="compact"
+             style="transform:scale(1);transform-origin:0 0">
         </div>
         <script src='https://www.google.com/recaptcha/api.js'></script>
       </div>
