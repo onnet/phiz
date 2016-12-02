@@ -54,8 +54,12 @@
         {% endif %}
       {% endif %}
     {% else %}
-      {% include "right.tpl" %}
-      {% include "left.tpl" %}
+    <div class="container-fluid" style="height: 100%; padding: 0;">
+      <div class="col-md-12" style="height: 100%; padding: 0;">
+        {% include "left.tpl" %}
+        {% include "right.tpl" %}
+      </div>
+    </div>
     {% endif %}
     {% script %}
   </body>

@@ -1,7 +1,10 @@
 {% if not m.kazoo.is_auth %}
-  <div id="sign_up_div" style="top: 23%;" class="login-block">
+  <div id="sign_up_div"style="margin-top: 4em;">
     {% wire id="sign_up_form" type="submit" postback={innosignup} delegate="mod_kazoo" %}
-    <form id="sign_up_form" class="form-horizontal" name="sign_in_form" method="post" action="postback">
+    <form id="sign_up_form" class="center_input form-horizontal" name="sign_in_form" method="post" action="postback">
+      <div class="login-input row-login"  style="color: grey; font-size: 1.7em; text-align: center; margin-bottom: 1em;">
+        <span class="hidden-lg hidden-md">{{ m.config.site.title.value }} Sign Up</span>
+      </div>
       <div class="login-input row-login">
         <input type="text" id="firstname" name="firstname" value="" placeholder="{_ Your name _}" />
         <i class="fa fa-user"></i>

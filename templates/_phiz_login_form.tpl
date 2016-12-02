@@ -2,6 +2,9 @@
   <div class="login-block">
     {% wire id="sign_in_form" type="submit" postback={innoauth} delegate="mod_kazoo" %}
     <form id="sign_in_form" class="form-horizontal" name="sign_in_form" method="post" action="postback">
+      <div class="login-input row-login1"  style="color: grey; font-size: 2em; text-align: center; margin-bottom: 1em;">
+        <span class="hidden-lg hidden-md">{{ m.config.site.title.value }}</span>
+      </div>
       <div class="login-input row-login">
         <input type="text" id="username" name="username" value="" placeholder="{_ Login _}" />
         <i class="fa fa-envelope"></i>
