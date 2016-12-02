@@ -1,3 +1,7 @@
+<div class="form-group">
+  <div class="row">
+    <div class="col-sm-12">
+
 
 <p><strong>Cancellation and refund</strong><p>
 
@@ -35,3 +39,9 @@
     
 <br />
 
+{% wire id="button_close_terms_and_cons" action={dialog_close} %}
+{% button id="button_close_terms_and_cons" class="btn-phiz" text=_"Close" %}
+
+    </dev>
+  </dev>
+</dev>
