@@ -6,7 +6,7 @@
         <span class="hidden-lg hidden-md">{{ m.config.site.title.value }}</span>
       </div>
       <div class="login-input row-login">
-        <input type="text" id="forgotten_username" name="forgotten_username" value="" placeholder="{_ Email or Username _}" />
+        <input type="text" id="forgotten_username" name="forgotten_username" value="" placeholder="{_ Username ( your email ) _}" />
         <i class="fa fa-envelope"></i>
       </div>
       <div class="login-input row-login">

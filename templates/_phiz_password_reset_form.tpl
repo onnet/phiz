@@ -1,5 +1,5 @@
 {% if not m.kazoo.is_auth %}
-  <div id="password_change_span_id" class="login-block" style="top: 30%;">
+  <div id="password_change_span_id" class="login-block">
       <div class="row-login" style="margin-top: 0em; text-align: center; font-size: 30px; color: grey;">
         <span>{_ Password change _}</span>
       </div>
