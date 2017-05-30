@@ -65,10 +65,15 @@
       </div>
       <div class="row-login" style="margin-top: 3em;">
         {% button class="btn-right"
+                  id="sign_in_btn"
                   text=_"Enter"
                   action={submit target="sign_in_form"}
         %}
       </div>
     </form>
   </div>
+  {% wire action={connect signal={emit_growl_signal signal_filter=m.kazoo.signal_filter}
+                          action={update template="_z_growl_add.tpl"}
+                 }
+  %}
 {% endif %}
