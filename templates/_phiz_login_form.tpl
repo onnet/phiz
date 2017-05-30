@@ -10,6 +10,8 @@
           name="sign_in_form"
           method="post"
           action="postback">
+      <!-- catch "Enter" to submit at any input -->
+      <input type="submit" style="display: none"/>
       <div class="login-input row-login1"
            style="color: grey;
                   font-size: 2em;
