@@ -59,6 +59,7 @@
         <script src='https://www.google.com/recaptcha/api.js'></script>
       </div>
       <input type="hidden" name="notify_signed_up" value="yes" />
+      <input type="hidden" name="kazoo_reseller_id" value="{{ m.config.mod_kazoo.reseller_id.value }}" />
     </form>
   </div>
 {% endif %}
