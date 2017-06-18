@@ -2,7 +2,7 @@
   <div class="login-block">
     {% wire id="sign_in_form"
             type="submit"
-            postback={innoauth}
+            postback="signin"
             delegate="mod_kazoo"
     %}
     <form id="sign_in_form"
