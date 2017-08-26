@@ -162,15 +162,18 @@
 }
 
 .navbar a {
-    color: #c0c0c9!important;
-}
-
-.navbar a:focus, .navbar a:hover {
-    color: #22a5ff!important;
+    color: white!important;
+    text-decoration: none!important;
 }
 
 .navbar .dropdown-menu a {
     color: #515151!important;
+}
+
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: grey;
+    text-decoration: none!important;
 }
 
 #page_title_row {
