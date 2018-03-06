@@ -7,7 +7,7 @@
 
 -export([event/2]).
 
--include_lib("zotonic.hrl").
+-include_lib("zotonic_core/include/zotonic.hrl").
 
 event(A, Context) ->
     lager:info("Unknown event A: ~p", [A]),
