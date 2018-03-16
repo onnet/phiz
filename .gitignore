@@ -12,3 +12,8 @@ config
 ssl
 *.pem
 *.crt
+files
+priv/config.d/secrets
+priv/mnesia
+priv/data
+priv/log

@@ -1,0 +1,29 @@
+[
+
+  {i18n, [{language, "ru"}
+         ,{language_list, [{ru,[{is_enabled,true}
+                               ,{fallback,<<"ru">>}
+                               ,{language,<<"ru">>}
+                               ,{direction,undefined}
+                               ,{name,<<"Rus">>}
+                               ,{name_en,<<"Russian">>}
+                               ,{region,undefined}
+                               ,{script,<<"Cyrl">>}
+                               ]
+                           }
+                          ,{en,[{is_enabled,true}
+                               ,{fallback,<<"en">>}
+                               ,{language,<<"en">>}
+                               ,{direction,undefined}
+                               ,{name,<<"English">>}
+                               ,{name_en,<<"English">>}
+                               ,{region,undefined}
+                               ,{script,undefined}
+                               ]
+                           }
+                          ]
+          }
+         ]
+  }
+
+].
