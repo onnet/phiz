@@ -5,7 +5,7 @@
 }
 
 #rs_demask {
-        background: {{ m.vars.mod_kazoo.color1 }};
+        background: {{ m.vars.color1 }};
         background: linear-gradient(top, {{ m.vars.color1 }}, {{ m.vars.color1 }});
         background: -webkit-linear-gradient(top, {{ m.vars.color1 }}, {{ m.vars.color1 }});
         background: -moz-linear-gradient(top, {{ m.vars.color1 }}, {{ m.vars.color1 }});

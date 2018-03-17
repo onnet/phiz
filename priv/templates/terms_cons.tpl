@@ -23,7 +23,7 @@
 
 	<li>not to use or attempt to use another person's or entity's account, telephone number, service or system without authorisation from the owner;</li>
 
-	<li>to comply with all laws regarding the transmission of voice or technical data (including all export laws, regulations, and restrictions of the {{ m.vars.mod_kazoo.country_of_residence }});</li>
+	<li>to comply with all laws regarding the transmission of voice or technical data (including all export laws, regulations, and restrictions of the {{ m.vars.country_of_residence }});</li>
 
 	<li>not to "stalk", threaten, or harass anyone through, in connection with, or utilising any data collected through the Service;</li>
 
