@@ -36,11 +36,12 @@
  ,{default_kazoo_timezone, "Europe/London"}
  ,{user_agent_string, "OnNet WebRTC Agent"}
  ,{default_country, "RU"}
+ ,{country_of_residence, "Russian Federation"}
  ,{default_kazoo_language, "en-us"}
  ,{numbers_countries_list, "RU,UK,US"}
  ,{signup_service_plan, "voip_service_plan"}
  ,{local_currency_sign, "$"}
- ,{sender_name, "okui.info"}
+ ,{sender_name, "OnNet Sandbox Portal"}
  ,{sales_email, "info@okui.info"}
  ,{callback_number, "(xxx) xxx-xx-xx"}
  ,{callingcards_number, "(xxx) xxx-xx-xx"}
