@@ -4,8 +4,8 @@
  %%%%% Commented out vars in this block is better to move         %%%%
  %%%%% to priv/config.d/secrets since it is .gitignored ..        %%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- %% ,{hostname, "onnet.su"}                                       %%%%
- %% ,{hostalias, ["www.onnet.su"]}                                %%%%
+ %% ,{hostname, "okui.info"}                                      %%%%
+ %% ,{hostalias, ["www.okui.info"]}                               %%%%
  %% ,{admin_password, "dfndPASSWORDdgndl"}                        %%%%
  %% ,{ip_whitelist, "127.0.0.0/8,x.x.x.x/24,y.y.y.y/24"}          %%%%
  %% ,{kazoo_super_duper_api_key, "73d7bxgbxf018f17fcab"}          %%%%
@@ -13,11 +13,11 @@
  %% ,{g_capture_secret, "6LcwYygUAAAAABks69vcVvRNNVNbHPy"}        %%%%
  %% ,{google_analytics_code, "UA-111111175-7"}                    %%%%
  %% ,{wss_port, "5065"}                                           %%%%
- %% ,{kazoo_default_realm, ".sip.onnet.su"}                       %%%%
- %% ,{sip_registrar, "kz531.onnet.su"}                            %%%%
+ %% ,{kazoo_default_realm, ".sip.okui.info"}                      %%%%
+ %% ,{sip_registrar, "sip.okui.info"}                             %%%%
  %% ,{reseller_id, "d2047d30399c796a93848dcd9f"}                  %%%%
- %% ,{kazoo_blackhole_url, "wss://kz531.onnet.su:7777"}           %%%%
- %% ,{kazoo_crossbar_url, "http://kz531.onnet.su:8000"}           %%%%
+ %% ,{kazoo_blackhole_url, "wss://sip.okui.info:7777"}            %%%%
+ %% ,{kazoo_crossbar_url, "http://sip.okui.info:8000"}            %%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,19 +29,19 @@
  ,{page_header_short, "OKUI"}
  ,{timezone, "UTC"}
  ,{timezone_is_fixed, true}
- ,{color1, "#3E7A8C"}
- ,{color2, "#E86110"}
+ ,{color1, "#3DADE7"}
+ ,{color2, "#ee1212"}
  ,{color3, "#ffffff"}
  ,{color4, "#C3C2C2"}
- ,{default_kazoo_timezone, "Europe/Moscow"}
+ ,{default_kazoo_timezone, "Europe/London"}
  ,{user_agent_string, "OnNet WebRTC Agent"}
  ,{default_country, "RU"}
- ,{default_kazoo_language, "ru-ru"}
- ,{numbers_countries_list, "RU"}
+ ,{default_kazoo_language, "en-us"}
+ ,{numbers_countries_list, "RU,UK,US"}
  ,{signup_service_plan, "voip_service_plan"}
- ,{local_currency_sign, "Ꝑ"}
- ,{sender_name, "OnNet communications Inc."}
- ,{sales_email, "info@onnet.su"}
+ ,{local_currency_sign, "$"}
+ ,{sender_name, "okui.info"}
+ ,{sales_email, "info@okui.info"}
  ,{callback_number, "(xxx) xxx-xx-xx"}
  ,{callingcards_number, "(xxx) xxx-xx-xx"}
  ,{placeholder_phone, "10123456789"}
