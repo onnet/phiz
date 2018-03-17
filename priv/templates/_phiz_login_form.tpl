@@ -18,7 +18,7 @@
                   text-align: center;
                   margin-bottom: 1em;">
         <span class="hidden-lg hidden-md">
-          {{ m.vars.title }}
+          {{ m.vars.page_header }}
         </span>
       </div>
       <div class="login-input row-login">

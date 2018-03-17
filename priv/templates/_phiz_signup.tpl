@@ -3,7 +3,7 @@
     {% wire id="sign_up_form" type="submit" postback="signup" delegate="mod_kazoo" %}
     <form id="sign_up_form" class="center_input form-horizontal" name="sign_in_form" method="post" action="postback">
       <div class="login-input row-login"  style="color: grey; font-size: 1.7em; text-align: center; margin-bottom: 1em;">
-        <span class="hidden-lg hidden-md">{{ m.vars.title }} Sign Up</span>
+        <span class="hidden-lg hidden-md">{{ m.vars.page_header }} Sign Up</span>
       </div>
       <div class="login-input row-login">
         <input type="text" id="firstname" name="firstname" value="" placeholder="{_ Your name _}" />
@@ -14,7 +14,7 @@
         <i class="fa fa-user"></i>
       </div>
       <div class="login-input row-login">
-        <input type="text" id="username" name="username" value="" placeholder="{_ Enter email address _}" />
+        <input type="text" id="signup_username" name="signup_username" value="" placeholder="{_ Enter email address _}" />
         <i class="fa fa-envelope"></i>
       </div>
       <div class="login-input row-login">
