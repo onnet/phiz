@@ -100,6 +100,7 @@
    ,numbers_list_widget_opened
    ,current_services_widget_opened
    ,contacts_widget_opened
+   ,bt_environment
    ]
   }
 
