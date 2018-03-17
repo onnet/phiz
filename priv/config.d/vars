@@ -13,7 +13,7 @@
  %% ,{g_capture_secret, "6LcwYygUAAAAABks69vcVvRNNVNbHPy"}        %%%%
  %% ,{google_analytics_code, "UA-111111175-7"}                    %%%%
  %% ,{wss_port, "5065"}                                           %%%%
- %% ,{kazoo_default_realm, ".sip.okui.info"}                      %%%%
+ %% ,{kazoo_default_realm, ".okui.info"}                          %%%%
  %% ,{sip_registrar, "sip.okui.info"}                             %%%%
  %% ,{reseller_id, "d2047d30399c796a93848dcd9f"}                  %%%%
  %% ,{kazoo_blackhole_url, "wss://sip.okui.info:7777"}            %%%%
