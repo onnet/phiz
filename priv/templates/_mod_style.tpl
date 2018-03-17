@@ -5,10 +5,10 @@
 }
 
 #rs_demask {
-        background: {{ m.config.mod_kazoo.color1.value }};
-        background: linear-gradient(top, {{ m.config.mod_kazoo.color1.value }}, {{ m.config.mod_kazoo.color1.value }});
-        background: -webkit-linear-gradient(top, {{ m.config.mod_kazoo.color1.value }}, {{ m.config.mod_kazoo.color1.value }});
-        background: -moz-linear-gradient(top, {{ m.config.mod_kazoo.color1.value }}, {{ m.config.mod_kazoo.color1.value }});
+        background: {{ m.vars.mod_kazoo.color1 }};
+        background: linear-gradient(top, {{ m.vars.color1 }}, {{ m.vars.color1 }});
+        background: -webkit-linear-gradient(top, {{ m.vars.color1 }}, {{ m.vars.color1 }});
+        background: -moz-linear-gradient(top, {{ m.vars.color1 }}, {{ m.vars.color1 }});
         position: relative;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: {{ m.config.mod_kazoo.color1.value }};
+    background-color: {{ m.vars.color1 }};
     text-decoration: none!important;
 }
 

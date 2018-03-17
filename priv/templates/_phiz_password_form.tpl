@@ -3,7 +3,7 @@
     {% wire id="password_recovery_form" type="submit" postback={forgottenpwd} delegate="mod_kazoo" %}
     <form id="password_recovery_form" class="form-horizontal" name="password_recovery_form" method="post" action="postback">
       <div class="login-input row-login1"  style="color: grey; font-size: 2em; text-align: center; margin-bottom: 1em;">
-        <span class="hidden-lg hidden-md">{{ m.config.site.title.value }}</span>
+        <span class="hidden-lg hidden-md">{{ m.vars.title }}</span>
       </div>
       <div class="login-input row-login">
         <input type="text" id="forgotten_username" name="forgotten_username" value="" placeholder="{_ Username ( your email ) _}" />

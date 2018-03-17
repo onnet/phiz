@@ -1,6 +1,6 @@
 [
 
-  {i18n, [{language, "ru"}
+  {i18n, [{language, "en"}
          ,{language_list, [{ru,[{is_enabled,true}
                                ,{fallback,<<"ru">>}
                                ,{language,<<"ru">>}

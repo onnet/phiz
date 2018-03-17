@@ -2,7 +2,7 @@
 <html lang="{{ z_language|default:"en"|escape }}">
   <head>
     <meta charset="utf-8" />
-    <title>{{ m.config.site.title.value }}</title>
+    <title>{{ m.vars.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="YOUR NAME HERE &copy; 2014" />
     {% lib "js/jquery-2.1.1.min.js" %}

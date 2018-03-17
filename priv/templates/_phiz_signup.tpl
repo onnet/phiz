@@ -3,7 +3,7 @@
     {% wire id="sign_up_form" type="submit" postback="signup" delegate="mod_kazoo" %}
     <form id="sign_up_form" class="center_input form-horizontal" name="sign_in_form" method="post" action="postback">
       <div class="login-input row-login"  style="color: grey; font-size: 1.7em; text-align: center; margin-bottom: 1em;">
-        <span class="hidden-lg hidden-md">{{ m.config.site.title.value }} Sign Up</span>
+        <span class="hidden-lg hidden-md">{{ m.vars.title }} Sign Up</span>
       </div>
       <div class="login-input row-login">
         <input type="text" id="firstname" name="firstname" value="" placeholder="{_ Your name _}" />
@@ -36,7 +36,7 @@
         <span id="index_pwd_recovery" style="color: grey; cursor: pointer;">{_ Password _}</span>
       </div>
       <div class="row-login" style="margin-top: 2em;">
-        {% if m.config.mod_kazoo.signup_enabled.value == "true" %}
+        {% if m.vars.signup_enabled == "true" %}
           {% button class="btn-right" text=_"Count Me In" action={submit target="sign_up_form"} %}
         {% else %}
           {% button class="btn-right" text=_"Currently disabled" action={growl text=_"Sorry, sign up disabled."} %}
@@ -51,7 +51,7 @@
       </div>
       <div id="google_recaptcha" class="row-login" style="margin-top: 2.2em;">
         <div class="g-recaptcha"
-             data-sitekey="{{ m.config.mod_kazoo.g_capture_site_key.value }}"
+             data-sitekey="{{ m.vars.g_capture_site_key }}"
              data-theme="dark"
              data-size="compact"
              style="transform:scale(1);transform-origin:0 0">
@@ -59,7 +59,7 @@
         <script src='https://www.google.com/recaptcha/api.js'></script>
       </div>
       <input type="hidden" name="notify_signed_up" value="yes" />
-      <input type="hidden" name="kazoo_reseller_id" value="{{ m.config.mod_kazoo.reseller_id.value }}" />
+      <input type="hidden" name="kazoo_reseller_id" value="{{ m.vars.reseller_id }}" />
     </form>
   </div>
 {% endif %}

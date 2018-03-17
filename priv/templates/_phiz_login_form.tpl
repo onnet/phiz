@@ -18,7 +18,7 @@
                   text-align: center;
                   margin-bottom: 1em;">
         <span class="hidden-lg hidden-md">
-          {{ m.config.site.title.value }}
+          {{ m.vars.title }}
         </span>
       </div>
       <div class="login-input row-login">
