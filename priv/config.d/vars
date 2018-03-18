@@ -40,7 +40,6 @@
  ,{default_kazoo_language, "en-us"}
  ,{numbers_countries_list, "RU,UK,US"}
  ,{signup_service_plan, "voip_service_plan"}
- ,{local_currency_sign, "$"}
  ,{sender_name, "OnNet Sandbox Portal"}
  ,{sales_email, "info@okui.info"}
  ,{callback_number, "(xxx) xxx-xx-xx"}
@@ -72,7 +71,6 @@
    ,default_country
    ,sip_registrar
    ,signup_service_plan
-   ,local_currency_sign
    ,sender_name
    ,sales_email
    ,kazoo_blackhole_url
