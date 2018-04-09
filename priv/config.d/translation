@@ -1,7 +1,17 @@
 [
 
   {i18n, [{language, "en"}
-         ,{language_list, [{ru,[{is_enabled,true}
+         ,{language_list, [{en,[{is_enabled,true}
+                               ,{fallback,<<"en">>}
+                               ,{language,<<"en">>}
+                               ,{direction,undefined}
+                               ,{name,<<"English">>}
+                               ,{name_en,<<"English">>}
+                               ,{region,undefined}
+                               ,{script,undefined}
+                               ]
+                           }
+                          ,{ru,[{is_enabled,true}
                                ,{fallback,<<"ru">>}
                                ,{language,<<"ru">>}
                                ,{direction,undefined}
@@ -11,12 +21,32 @@
                                ,{script,<<"Cyrl">>}
                                ]
                            }
-                          ,{en,[{is_enabled,true}
-                               ,{fallback,<<"en">>}
-                               ,{language,<<"en">>}
+                          ,{de,[{is_enabled,true}
+                               ,{fallback,<<"de">>}
+                               ,{language,<<"de">>}
                                ,{direction,undefined}
-                               ,{name,<<"English">>}
-                               ,{name_en,<<"English">>}
+                               ,{name,<<"Deutsch">>}
+                               ,{name_en,<<"German">>}
+                               ,{region,undefined}
+                               ,{script,undefined}
+                               ]
+                           }
+                          ,{es,[{is_enabled,true}
+                               ,{fallback,<<"es">>}
+                               ,{language,<<"es">>}
+                               ,{direction,undefined}
+                               ,{name,<<"Español"/utf8>>}
+                               ,{name_en,<<"Spanish">>}
+                               ,{region,undefined}
+                               ,{script,undefined}
+                               ]
+                           }
+                          ,{pt,[{is_enabled,true}
+                               ,{fallback,<<"pt">>}
+                               ,{language,<<"pt">>}
+                               ,{direction,undefined}
+                               ,{name,<<"Português"/utf8>>}
+                               ,{name_en,<<"Portugal">>}
                                ,{region,undefined}
                                ,{script,undefined}
                                ]

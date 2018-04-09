@@ -14,6 +14,7 @@ ssl
 *.crt
 files
 priv/config.d/secrets
+priv/config.d/zsecrets
 priv/mnesia
 priv/data
 priv/log
