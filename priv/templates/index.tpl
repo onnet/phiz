@@ -34,7 +34,6 @@
      %}
     {% lib "css/font-awesome.min.css" %}
     {% lib "css/telicon.css" %}
-    {% lib "css/icons.css" %}
     {% lib "css/phiz.css" %}
   </head>
   <body id="page">
