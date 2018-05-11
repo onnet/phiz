@@ -28,7 +28,6 @@
           "js/modules/z.formreplace.js"
           "js/modules/z.datepicker.js"
           "js/modules/z.menuedit.js"
-          "js/modules/z.cropcenter.js"
           "js/modules/livevalidation-1.3.js"
           "js/modules/jquery.loadmask.js"
           "js/modules/jquery.timepicker.min.js"
