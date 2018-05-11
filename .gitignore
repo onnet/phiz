@@ -18,3 +18,5 @@ priv/config.d/zsecrets
 priv/mnesia
 priv/data
 priv/log
+priv/config.d/vars
+priv/zotonic_site.config
